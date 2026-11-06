@@ -64,7 +64,7 @@ Route::get('/privacy', [HomeController::class, 'privacy'])->name('privacy');
 Route::get('/sendSMS', function() {
     // Configure client
     $config = Configuration::getDefaultConfiguration();
-    $config->setApiKey('Authorization', 'eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJhZG1pbiIsImlhdCI6MTY0NTUzMDA5MywiZXhwIjo0MTAyNDQ0ODAwLCJ1aWQiOjkzMTI1LCJyb2xlcyI6WyJST0xFX1VTRVIiXX0.fYMteqJ81ns-Q5VveOyzNdZTGh-lkGsxTOqnQVUVKoA');
+    $config->setApiKey('Authorization', env('SMS_GATEWAY_API_KEY'));
     $apiClient = new ApiClient($config);
     $messageClient = new MessageApi($apiClient);
 
@@ -163,7 +163,7 @@ Route::get('/test2', function () {
 Route::get('/test', function () {
     function notify($to,$data){
 
-        $api_key="AAAAsfAZjQY:APA91bE8v8n4MSIPho8vwiaeUUKeIGS-80iZAKPvvf3TNu0-OLKt0i7L-c1S7XjnWEzA-PrV_Ffy1oeWHlxxw7bdk6nS1rMwUusAsabMdzQW83lX1g1OwCSi6e8kyRT8Mh2B746-KdC4";
+        $api_key = env('FCM_KEY');
         $url="https://fcm.googleapis.com/fcm/send";
         $fields=json_encode(array('to'=>$to,'notification'=>$data));
 

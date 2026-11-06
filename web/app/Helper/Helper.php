@@ -98,7 +98,7 @@ class Helper
 
     public function sendFCMNotification($to, $data) {
 
-        $api_key= env('FCM_KEY', 'AAAAsfAZjQY:APA91bE8v8n4MSIPho8vwiaeUUKeIGS-80iZAKPvvf3TNu0-OLKt0i7L-c1S7XjnWEzA-PrV_Ffy1oeWHlxxw7bdk6nS1rMwUusAsabMdzQW83lX1g1OwCSi6e8kyRT8Mh2B746-KdC4');
+        $api_key = env('FCM_KEY');
 
         $url="https://fcm.googleapis.com/fcm/send";
         $fields=json_encode(array('registration_ids'=>$to,'notification'=>$data));
