@@ -34,7 +34,7 @@
 
 ## 🧐 About <a name = "about"></a>
 
-e-Serbisyo is a capstone project from the Technological University of the Philippines. It is a barangay information dissemination and certificate issuance system built for Barangay Cupang, Muntinlupa City. The project started during the COVID-19 pandemic, when residents could not easily visit the barangay hall for announcements, complaints, and certificate requests.
+e-Serbisyo is a capstone project from the Technological University of the Philippines - Taguig Campus. It is a barangay information dissemination and certificate issuance system built for Barangay Cupang, Muntinlupa City. The project started during the COVID-19 pandemic, when residents could not easily visit the barangay hall for announcements, complaints, and certificate requests.
 
 The system has two clients that share one backend:
 
@@ -245,7 +245,7 @@ See also the list of [contributors](https://github.com/diazjhozua/eSerbisyoWebAp
 ## 🎉 Acknowledgements <a name = "acknowledgement"></a>
 
 - Barangay Cupang, Muntinlupa City, for the domain knowledge and for allowing the system to be built around their services.
-- The capstone adviser and panel at the Technological University of the Philippines for their guidance.
+- The capstone adviser and panel at the Technological University of the Philippines - Taguig Campus for their guidance.
 - The README structure follows [The Documentation Compendium](https://github.com/kylelobo/The-Documentation-Compendium) by [@kylelobo](https://github.com/kylelobo).
 - Icons in the admin dashboard are from [Flaticon](https://www.flaticon.com/); attribution is recorded in [`web/credits.txt`](web/credits.txt).
 - Thanks to the maintainers of Laravel, Pusher, Cloudinary, Firebase, and the other open-source projects this system depends on.
