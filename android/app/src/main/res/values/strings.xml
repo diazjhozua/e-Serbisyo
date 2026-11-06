@@ -1,0 +1,279 @@
+<resources>
+    <string name="app_name">e-Serbisyo</string>
+    <string name="appTitle">Barangay Cupang \n e-Serbisyo</string>
+    <string name="appDesc">Barangay Cupang Information Dessimination and \n Certificate Issuance System</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="new_user_sign_up">New user? Sign Up!</string>
+    <string name="login">Login</string>
+    <string name="remember_me">Remember me</string>
+    <string name="password">Password</string>
+    <string name="email">Email</string>
+    <string name="sign_in_to_continue">Sign in to continue</string>
+    <string name="hello_there_welcome_back">Hello there, Welcome Back</string>
+    <string name="forgot_password">Forgot Password?</string>
+    <string name="already_logged_in_sign_in">Already logged in? Sign In!</string>
+    <string name="register">Register</string>
+    <string name="confirm_password">Confirm Password</string>
+    <string name="sign_up_to_continue">Sign up to continue</string>
+    <string name="welcome">Welcome</string>
+    <string name="address">Address</string>
+    <string name="select_purok">Select Purok</string>
+    <string name="last_name">Last name</string>
+    <string name="middle_name">Middle Name</string>
+    <string name="first_name">First Name</string>
+    <string name="select_photo">Select photo</string>
+    <string name="user_info">User Info</string>
+    <string name="logout">Logout</string>
+    <string name="profile">Profile</string>
+    <string name="home">Home</string>
+    <string name="orders">Orders</string>
+    <string name="feedbacks">Feedbacks</string>
+    <string name="reports">Reports</string>
+    <string name="edit_profile">Edit Profile</string>
+    <string name="jhozua_diaz">Jhozua Diaz</string>
+    <string name="change_email">Change Email</string>
+    <string name="verification_status">Verification Status</string>
+    <string name="my_profile">My Profile</string>
+    <string name="change_password">Change Password</string>
+    <string name="current_email">Current Email</string>
+    <string name="new_email">New Email</string>
+    <string name="confirm_new_email">Confirm New Email</string>
+    <string name="save">Save</string>
+    <string name="cancel">Cancel</string>
+    <string name="edit">Edit</string>
+    <string name="new_request_message">If you want to access the full functionality of this android application, fill-up the forms the get verified. You will receive an email notification once your requests has been responded by the administrator</string>
+    <string name="pending_request_message">Your current requests is still pending. Please wait for the admin to respond to your requests</string>
+
+    <string name="denied_request_message">Your request has been denied by the administrator, please see the admin message to know the reason why your request
+        has been denied. You may submit another requests</string>
+
+    <string name="approved_request_message">Your request has been approved by the administrator, re-open the application to refresh access the verified functionality</string>
+
+    <string name="feedback_desc">These are the list of your submitted feedbacks. You can only submit one feedback a day.
+        Rest assured that if you submit a feedback that is marked as anonymous, your details will not be shown in the admin dashboard.
+    </string>
+
+    <string name="inquiry_desc">These are the list of your submitted inquiries. You can add inquiries if you wan to ask question to a specific services of the barangay.
+        You will receive email notification once the administrator respond to your inquiry.
+    </string>
+
+    <string name="report_desc">These are the list of your submitted reports. You can only submit three reports a day. Rest assured that if you submit a
+        report that is marked as anonymous, your details will not be shown in the admin dashboard.
+    </string>
+    <string name="requirement_desc">These are the list of your submitted requirements in the system. These requirements is used for ordering of certificates,
+        since every certificate have required requirements. Rest assured that the only time the administrator will see your requirements list is when you submit a order to the
+        system. Rest assured that if you delete any of the requirements, the attached image/credentials will also be deleted. Prevent deleting a requirement when you have a pending
+        order.
+    </string>
+
+    <string name="complaint_desc">These are the list of your submitted complaints in the system. Take note you can only edit/delete a complaint when that complaint status is Pending or Declined.
+        When you update a specific report, it automatically change its status to Pending. Please always see the administrator message for the updates of your complaint. You will receive an email and sms notification
+        when the administrator respond to your complaint.
+    </string>
+
+    <string name="order_desc">These are the list of your submitted orders in the system. You can only delete the order you submitted when the application status is still "Pending". Please always see the administrator message for the updates of your orders. You will receive an email and sms notification
+        when the administrator made changes to your order.
+    </string>
+    <string name="search">Search</string>
+    <string name="submit">Submit</string>
+    <string name="feedback_no">Feedback # </string>
+    <string name="report_no">Report # </string>
+    <string name="submit_feedback">Submit feedback</string>
+    <string name="submit_report">Submit report</string>
+    <string name="select_type">Select Type</string>
+    <string name="click_this_if_you_want_a_custom_type">Click this if you want a custom type</string>
+    <string name="custom_feedback_type">Custom feedback type</string>
+    <string name="message_content">Message Content</string>
+    <string name="send_as_anonymous">Send as anonymous</string>
+    <string name="message">Message</string>
+    <string name="landmark">Landmark</string>
+    <string name="urgency_classification">Urgency Classification</string>
+    <string name="account">Account</string>
+    <string name="requirements">Requirements</string>
+    <string name="title_activity_requirement_add">RequirementAddActivity</string>
+    <!-- Strings used for fragments for navigation -->
+    <string name="first_fragment_label">First Fragment</string>
+    <string name="second_fragment_label">Second Fragment</string>
+    <string name="next">Next</string>
+    <string name="previous">Previous</string>
+
+    <string name="hello_first_fragment">Hello first fragment</string>
+    <string name="hello_second_fragment">Hello second fragment. Arg: %1$s</string>
+    <string name="capture">Capture</string>
+    <string name="barangay_cupang">Barangay Cupang</string>
+    <string name="open_paren">(</string>
+    <string name="close_paren">)</string>
+    <string name="view_all">View all </string>
+    <string name="comments"> comments</string>
+    <string name="logout_account">LOGOUT ACCOUNT</string>
+    <string name="barangay_cupang_n_electronic_service">Barangay Cupang \n Electronic Service</string>
+    <string name="request_certificate">Request Certificate</string>
+    <string name="complaints">Complaints</string>
+    <string name="missing_item">Missing Item</string>
+    <string name="missing_person">Missing Person</string>
+    <string name="public_documents">Public Documents</string>
+    <string name="projects">Projects</string>
+    <string name="ordinances">Ordinances</string>
+    <string name="announcements">Announcements</string>
+    <string name="officials">Officials</string>
+    <string name="report">Report</string>
+    <string name="my_missing_item_report">Missing Item Report</string>
+    <string name="my_missing_person_report">Missing Person Report</string>
+    <string name="missing_person_desc">These are the list of approved missing person report.
+        Please contact the user name who posted the said report if you have the information that may help him/her finding the report.
+        You can see the contact information of the use by clicking the name or by writing a comment.</string>
+
+    <string name="auth_missing_person_desc">These are the list of your current missing person report.
+        Please take notice that if you update a specific report that is "Approved" by the administrator, the status will automatically change to "Pending".
+        If your submitted report status was "Denied", please see the admin message and re-edit the specific missing person report.
+    </string>
+
+    <string name="auth_missing_item_desc">These are the list of your current missing item report.
+        Please take notice that if you update a specific report that is "Approved" by the administrator, the status will automatically change to "Pending".
+        If your submitted report status was "Denied", please see the admin message and re-edit the specific missing item report.
+    </string>
+
+    <string name="biker_transaction">These are the list of your current transaction and it is sorted by the latest to oldest data. Please refrain from
+        booking an order when there is a pending delivery. If you want to have the list of pending delivery, please click add the button.
+    </string>
+
+    <string name="biker_avail">These are the available order that needs to deliver,
+        Please choose any of the order and take note that you cannot cancel the delivery once you accept the order.
+    </string>
+
+    <string name="missing_item_desc">These are the list of approved missing item report.
+        Please contact the user name who posted the said report if you have the information that may help him/her finding the report.
+        You can see the contact information of the use by clicking the name or by writing a comment.</string>
+
+    <string name="order_type_desc">Take note that the certificates available depends on which order type you have chosen.
+        There are certain types of certificate only available for pickup.
+    </string>
+
+    <!--    <string name="order_received_note">When the administrator approved of your order request, go to the barangay to received your delivery (if Pickup) or-->
+    <!--        expect to receive the order from the biker (If Delivery) at specific or within 3 days after the specified received date.-->
+    <!--    </string>-->
+
+    <string name="guidelines">
+        Take note that if you did not deliver the specified order within 3 days after the specified received date,
+        the system will automatically marked it as cancelled. These are the following steps that you must follow to complete the delivery transaction.
+    </string>
+
+    <string name="guidelines1">
+        1. Pickup the order to the barangay hall with your device and valid ID.
+    </string>
+
+    <string name="guidelines2">
+        2. When the administrator marked your order as On-Going (When you pickup the order), it will sent email and sms notification to the user informing that you have
+        pickup the delivery item.
+    </string>
+
+    <string name="guidelines3">
+        3. Click the "Start Riding" button to inform the user that you are on the way to the location. Take note that some addresses cannot recognize google map direction,
+        so you must rely on your overall knowledge around the streets since it is required when registering for being a biker.
+    </string>
+
+    <string name="guidelines4">
+        4. When the resident received the order, you are required to submit a proof by capturing the specified customer while holding their order.
+    </string>
+
+    <string name="guidelines5">
+        5. When the resident received the order, the system shall need a proof by capturing the specified customer while holding their order.
+    </string>
+
+    <string name="guidelines6">
+        6. When the resident does not received the order, you are required to return the item to the barangay hall.
+    </string>
+
+    <string name="guidelines7">
+        Optional: Regardless whether the resident received or does not received the document, you can submit report.
+    </string>
+
+    <string name="biker_terms">
+        The e-Serbisyo Application allows any verified user to register as a part-time biker in the barangay Cupang. By registering, you are agreeing with the terms and condition
+        of being a delivery biker:
+    </string>
+
+    <string name="biker_terms1">
+        1. Bikers must abide by the barangay official\'s rules and management, and they must not deviate from their responsibilities.
+    </string>
+
+    <string name="biker_terms2">
+        2. Bikers should treat the residents with respect and follow the delivery location\'s instructions.
+    </string>
+
+    <string name="biker_terms3">
+        3. Bikers are not allow to sue Barangay Cupang if accidents happen during the delivery.
+    </string>
+
+    <string name="biker_terms4">
+        4. Bikers when they delivered the specific order to the resident, you are obliged to return the fee for the actual order.
+    </string>
+
+    <string name="biker_terms5">
+        5. When the resident did not received his/her order, you are obliged to return the document to the barangay office. (No compensation)
+    </string>
+
+    <string name="biker_terms6">
+        6. The system does not provide system messaging to the user. Hence, the biker is required to have load in their sim card to have extra communication
+        with the resident.
+    </string>
+
+    <string name="biker_terms7">
+        7. The bikers must be familiar with the streets and purok of barangay officials. They must not rely on the coordinates given in the system because there is a chance
+        that the google map does not recognize the familiar address.
+    </string>
+
+    <string name="biker_terms3asd">
+        If residents are at fault bikers should immediately report to the barangay to be investigated. \n In addition, riders must not tamper the package in any way. By agreeing this you will agree with the protocols involved.
+        Barangay Cupang will not be in-charged when accidents happen during the delivery.
+    </string>
+
+    <string name="order_type_desc2">
+        (PICKUP MODE) - You will pickup the document based on your preferred pickup date.
+    </string>
+
+    <string name="order_type_desc3">
+        (DELIVERY MODE) - Once the administrator approved of your request, your order will wait for the bikers to choose your order. If your order does not get picked by our
+        biker on or within 3 days after the specified received date, it will automatically marked as CANCELLED.
+    </string>
+
+    <string name="order_type_desc5">
+        (PICKUP MODE) - Once the administrator approved of your request, go to the barangay office to pay and pickup your order on or within 3 days after the specified
+        pickup date. If you did not pickup your order within 3 days after the specified received date, it will automatically marked as "DNR (DID NOT RECEIVED)".
+    </string>
+
+    <string name="order_type_desc4">Please make sure that you have the required requirements when proceeding. Go to the certificates section to see the required requirements.
+    </string>
+
+    <string name="feedbacks_info">
+        Feedback is important to the barangay officials to determine if their services meet the needs of the residents. You can submit one feedback per day. Barangay officials
+        would love it if you submit feedback regardless of whether it is positive, neutral, or negative feedback.
+    </string>
+
+    <string name="reports_info">
+        Reports are used when a verified resident of barangay Cupang sees an illegal activities happening inside the barangay Cupang. With this your submitted reports, the officials
+        can respond to any illegal activities, accidents, and other calamities. You can submit three reports per day. There is an optional send as anonymous if you think that report
+        you submitted can endanger your life.
+    </string>
+
+    <string name="complaints_info">
+        Complaint/Blotter can now be filed using this application. If you think someone is violating your rights, send a complaint indicating the complainant and the defendant. The administrator
+        can receive complaints in realtime in their system.
+    </string>
+
+    <string name="no_verification_message">
+        Your account is still unverified. Please go to the sidebar (swipe left) and click the unverified text to proceed to the verification process. Click this
+        to get verified or to see current verification status.
+    </string>
+
+    <!--    <string name="no_verification_message">-->
+    <!--        Important Notice: You will only receive notification in this specific email and phone number (Depending on what type of services). \n Email: asdasd\n-->
+    <!--        Phone #: \n-->
+    <!--            System.getProperty("line.separator")-->
+    <!--    </string>-->
+
+
+</resources>
