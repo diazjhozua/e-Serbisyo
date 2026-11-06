@@ -252,6 +252,6 @@ See also the list of [contributors](https://github.com/diazjhozua/eSerbisyoWebAp
 
 ## License <a name = "license"></a>
 
-This project was produced as an academic capstone at the Technological University of the Philippines. The source code and documentation are the property of the authors and the university. All rights reserved.
+This project was produced as an academic capstone at the Technological University of the Philippines - Taguig Campus. The source code and documentation are the property of the authors and the university. All rights reserved. See [`LICENSE`](LICENSE) for the full terms.
 
 The repository is shared publicly for portfolio and reference purposes. You may read the code, but you may not copy, redistribute, or use it commercially without written permission from the authors.
