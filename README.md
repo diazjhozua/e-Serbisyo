@@ -240,7 +240,7 @@ cd android
 - [@diazjhozua](https://github.com/diazjhozua) - Idea, web application, and Android application
 - [@DiamondShy](https://github.com/DiamondShy) - Capstone teammate
 
-See also the list of [contributors](https://github.com/diazjhozua/eSerbisyoWebApi/contributors) who participated in this project.
+See also the list of [contributors](https://github.com/diazjhozua/e-Serbisyo/contributors) who participated in this project.
 
 ## 🎉 Acknowledgements <a name = "acknowledgement"></a>
 
